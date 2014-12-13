@@ -9,7 +9,7 @@ public class JumpPad : MonoBehaviour {
 
     public Vector3 JumpDirection = Vector3.up;
 
-    public float JumpVelocity = 10f;
+    public float JumpVelocity = 25f;
 
     void OnTriggerEnter(Collider collider)
     {
