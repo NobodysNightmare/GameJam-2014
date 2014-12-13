@@ -3,5 +3,6 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-    public int cactii;
+    public int cactiiCollected;
+    public int cactiiRequired;
 }

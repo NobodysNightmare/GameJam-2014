@@ -11,7 +11,7 @@ public class CollectableBehaviour : MonoBehaviour {
         if (player != null && !hasBeenTriggered)
         {
             hasBeenTriggered = true;
-            player.cactii++;
+            player.cactiiCollected++;
             Object.Destroy(this.gameObject);
         }
     }
