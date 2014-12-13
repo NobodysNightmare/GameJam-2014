@@ -356,12 +356,12 @@ MonoBehaviour:
       m_PostInfinity: 2
     maxGroundAcceleration: 30
     maxAirAcceleration: 20
-    gravity: 10
+    gravity: 20
     maxFallSpeed: 20
   jumping:
     enabled: 1
     baseHeight: 1
-    extraHeight: 4.0999999
+    extraHeight: 2.0999999
     perpAmount: 0
     steepPerpAmount: .5
   movingPlatform:
