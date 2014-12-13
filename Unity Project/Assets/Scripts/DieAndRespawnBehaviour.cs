@@ -16,6 +16,7 @@ public class DieAndRespawnBehaviour : MonoBehaviour
 	void Update () {
         if (this.transform.position.y < DeathHeight)
         {
+            Debug.Log("Player died! Respawning...", this);
             this.transform.position = RespawnLocation;
         }
 	}
