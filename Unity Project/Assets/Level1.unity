@@ -249,7 +249,7 @@ Transform:
   - {fileID: 167481452}
   - {fileID: 172324324}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!114 &15844658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,8 +412,6 @@ GameObject:
   - 95: {fileID: 22941131}
   - 23: {fileID: 22941130}
   - 136: {fileID: 22941129}
-  - 114: {fileID: 22941128}
-  - 114: {fileID: 22941127}
   - 114: {fileID: 22941126}
   m_Layer: 0
   m_Name: cactus_funky
@@ -451,40 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &22941127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 422141471}
-  m_GameObject: {fileID: 22941124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &22941128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 422141471}
-  m_GameObject: {fileID: 22941124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &22941129
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1076,8 +1041,6 @@ GameObject:
   - 95: {fileID: 142728522}
   - 23: {fileID: 142728521}
   - 136: {fileID: 142728520}
-  - 114: {fileID: 142728519}
-  - 114: {fileID: 142728518}
   - 114: {fileID: 142728517}
   m_Layer: 0
   m_Name: cactus_funky
@@ -1115,40 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &142728518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1580995277}
-  m_GameObject: {fileID: 142728515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &142728519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1580995277}
-  m_GameObject: {fileID: 142728515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 2, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &142728520
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3024,8 +2954,6 @@ GameObject:
   - 95: {fileID: 329915593}
   - 23: {fileID: 329915592}
   - 136: {fileID: 329915591}
-  - 114: {fileID: 329915590}
-  - 114: {fileID: 329915589}
   - 114: {fileID: 329915588}
   m_Layer: 0
   m_Name: cactus_funky
@@ -3050,7 +2978,7 @@ Transform:
   - {fileID: 1389428493}
   - {fileID: 265386383}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!114 &329915588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3063,40 +2991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &329915589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1752926543}
-  m_GameObject: {fileID: 329915586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &329915590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1752926543}
-  m_GameObject: {fileID: 329915586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &329915591
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4331,8 +4226,6 @@ GameObject:
   - 95: {fileID: 503666623}
   - 23: {fileID: 503666622}
   - 136: {fileID: 503666621}
-  - 114: {fileID: 503666620}
-  - 114: {fileID: 503666619}
   - 114: {fileID: 503666618}
   m_Layer: 0
   m_Name: cactus_funky
@@ -4370,40 +4263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &503666619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 150130718}
-  m_GameObject: {fileID: 503666616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &503666620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 150130718}
-  m_GameObject: {fileID: 503666616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &503666621
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6750,23 +6610,23 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: StartOffset.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: StartOffset.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: EndOffset.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: EndOffset.x
       value: 2
       objectReference: {fileID: 0}
@@ -7492,8 +7352,6 @@ GameObject:
   - 95: {fileID: 1005373691}
   - 23: {fileID: 1005373690}
   - 136: {fileID: 1005373689}
-  - 114: {fileID: 1005373688}
-  - 114: {fileID: 1005373687}
   - 114: {fileID: 1005373686}
   m_Layer: 0
   m_Name: cactus_funky
@@ -7531,40 +7389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1005373687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 837253518}
-  m_GameObject: {fileID: 1005373684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &1005373688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 837253518}
-  m_GameObject: {fileID: 1005373684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &1005373689
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9538,8 +9363,6 @@ GameObject:
   - 95: {fileID: 1295895878}
   - 23: {fileID: 1295895877}
   - 136: {fileID: 1295895876}
-  - 114: {fileID: 1295895875}
-  - 114: {fileID: 1295895874}
   - 114: {fileID: 1295895873}
   m_Layer: 0
   m_Name: cactus_funky
@@ -9577,40 +9400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1295895874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 897425267}
-  m_GameObject: {fileID: 1295895871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 1, y: .100000001, z: 1}
-  EndOffset: {x: 2, y: -.100000001, z: 1}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &1295895875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 897425267}
-  m_GameObject: {fileID: 1295895871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
+  EndOffset: {x: 0, y: -.100000001, z: 0}
 --- !u!136 &1295895876
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10971,8 +10761,6 @@ GameObject:
   - 95: {fileID: 1495036801}
   - 23: {fileID: 1495036800}
   - 136: {fileID: 1495036799}
-  - 114: {fileID: 1495036798}
-  - 114: {fileID: 1495036797}
   - 114: {fileID: 1495036796}
   m_Layer: 0
   m_Name: cactus_funky
@@ -11010,40 +10798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1495036797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1143602821}
-  m_GameObject: {fileID: 1495036794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
   EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
---- !u!114 &1495036798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101,
-    type: 2}
-  m_PrefabInternal: {fileID: 1143602821}
-  m_GameObject: {fileID: 1495036794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
 --- !u!136 &1495036799
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11360,7 +11115,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: ece642f46736f144686c82a5e6329101, type: 2}
+    - target: {fileID: 0}
       propertyPath: RotationAxis.y
       value: 2
       objectReference: {fileID: 0}
@@ -13310,7 +13065,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: ece642f46736f144686c82a5e6329101, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ece642f46736f144686c82a5e6329101, type: 2}

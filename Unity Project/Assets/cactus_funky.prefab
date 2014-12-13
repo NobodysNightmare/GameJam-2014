@@ -148,8 +148,6 @@ GameObject:
   - 95: {fileID: 9500000}
   - 23: {fileID: 2300002}
   - 136: {fileID: 13600000}
-  - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: cactus_funky
@@ -351,38 +349,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6836d9f391ac4991862d20b42a65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationOffset: {x: 0, y: 0, z: 0}
-  RotationAxis: {x: 0, y: 1, z: 0}
-  RotationSpeed: .5
-  StartDelay: 0
-  RestingTimeMs: 0
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de050161fc7fa94499bf0fe5887355ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartOffset: {x: 0, y: .100000001, z: 0}
-  EndOffset: {x: 0, y: -.100000001, z: 0}
-  Speed: .300000012
-  RestingDurationMs: 0
-  DelayMs: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -394,6 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5179e318449820a4e8bff50073b783c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EndOffset: {x: 0, y: -.100000001, z: 0}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
