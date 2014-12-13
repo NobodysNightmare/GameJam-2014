@@ -10,4 +10,15 @@ public class JumpPad : MonoBehaviour {
     public Vector3 JumpDirection = Vector3.up;
 
     public float JumpVelocity = 10f;
+
+    void OnTriggerEnter(Collider collider)
+    {
+        Debug.Log("Someone is there!");
+        var jumpee = collider.gameObject.GetComponent<CharacterMotor>();
+        if (jumpee != null)
+        {
+            Debug.Log("Weeeeeeeeeeeee!");
+            jumpee.SetVelocity(JumpVector);
+        }
+    }
 }
