@@ -4,12 +4,14 @@ using System.Collections;
 public class JumpPadAffectable : MonoBehaviour
 {
     private CharacterMotor myMotor;
+    private CharacterController myController;
 
     void Start()
     {
         myMotor = this.GetComponent<CharacterMotor>();
+        myController = this.GetComponent<CharacterController>();
 
-        if (myMotor == null)
+        if (myMotor == null || myController == null)
         {
             Debug.LogError("Object without Character Motor tries to be JumpPadAffectable", this);
         }
@@ -21,7 +23,7 @@ public class JumpPadAffectable : MonoBehaviour
         if (jumpPad != null)
         {
             Debug.Log("Weeeeeeeeeeeee!");
-            this.myMotor.movement.velocity += jumpPad.JumpVector;
+            this.myMotor.SetVelocity(jumpPad.JumpVector);
         }
     }
 }
