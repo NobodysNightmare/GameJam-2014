@@ -36,6 +36,6 @@ public class UpdateHud : MonoBehaviour {
 
         var height = Mathf.Floor(this.transform.position.y * 10f) / 10f;
         this.heightText.text = string.Format("Height: {0}", height);
-        this.cactusText.text = string.Format("{0} of {1} cactii saved", playerVariables.cactii, playerVariables.cactii);
+        this.cactusText.text = string.Format("{0} cactii saved", playerVariables.cactii);
 	}
 }
