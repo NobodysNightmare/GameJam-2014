@@ -47,7 +47,7 @@ public class MoveBackAndForth : MonoBehaviour {
 		Vector3 dir = (this.EndOffset - this.StartOffset);		
 		dir.Normalize();
 		
-		if (wait <= 0) this.transform.localPosition = this.StartPos - this.StartOffset + dir * this.t;
+		if (wait <= 0) this.transform.position = this.StartPos - this.StartOffset + dir * this.t;
 		else wait -= Time.deltaTime;
 	}
 }
