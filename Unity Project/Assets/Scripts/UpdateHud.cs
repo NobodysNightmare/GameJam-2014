@@ -4,20 +4,17 @@ using UnityEngine.UI;
 
 public class UpdateHud : MonoBehaviour {
 
-    public Canvas Hud;
-
-    private bool HasHud
-    {
-        get { return Hud != null; }
-    }
+    private bool hasHud;
 
     private Text heightText;
 
 	// Use this for initialization
 	void Start () {
-        if (HasHud)
+        hasHud = GameObject.Find("/HUD") != null;
+
+        if (hasHud)
         {
-            this.heightText = Hud.GetComponentInChildren<Text>();
+            this.heightText = GameObject.Find("/HUD/Height").GetComponent<Text>();
 
             if (this.heightText == null)
             {
@@ -28,7 +25,7 @@ public class UpdateHud : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (!HasHud)
+        if (!hasHud)
         {
             return;
         }
