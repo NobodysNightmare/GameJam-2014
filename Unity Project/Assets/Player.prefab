@@ -162,7 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d9ad868ce02bf468fe366c72ecff32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cactii: 0
+  cactiiCollected: 0
+  cactiiRequired: 0
 --- !u!114 &11450594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -188,8 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 0
-  sensitivityX: 15
-  sensitivityY: 15
+  sensitivityX: 5
+  sensitivityY: 5
   minimumX: -360
   maximumX: 360
   minimumY: -60

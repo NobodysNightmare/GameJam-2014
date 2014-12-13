@@ -1450,8 +1450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 0
-  sensitivityX: 15
-  sensitivityY: 15
+  sensitivityX: 5
+  sensitivityY: 5
   minimumX: -360
   maximumX: 360
   minimumY: -60
@@ -12835,7 +12835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 456460, guid: ccbe8bb90a76bf440b985fc7d311582a, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11450594, guid: ccbe8bb90a76bf440b985fc7d311582a, type: 2}
       propertyPath: RespawnLocation.y
