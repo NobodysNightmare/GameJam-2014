@@ -7,7 +7,7 @@ public class CollectableBehaviour : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider)
     {
-        var player = collider.gameObject.GetComponent<PlayerVariables>();
+        var player = collider.gameObject.GetComponent<Player>();
         if (player != null && !hasBeenTriggered)
         {
             hasBeenTriggered = true;

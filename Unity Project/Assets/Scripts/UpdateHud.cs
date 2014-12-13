@@ -8,7 +8,7 @@ public class UpdateHud : MonoBehaviour {
 
     private Text heightText;
     private Text cactusText;
-    private PlayerVariables playerVariables;
+    private Player playerVariables;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +18,7 @@ public class UpdateHud : MonoBehaviour {
         {
             this.heightText = GameObject.Find("/HUD/Height").GetComponent<Text>();
             this.cactusText = GameObject.Find("/HUD/CactusCounterText").GetComponent<Text>();
-            this.playerVariables = GameObject.Find("/Player").GetComponent<PlayerVariables>();
+            this.playerVariables = GameObject.Find("/Player").GetComponent<Player>();
 
             if (this.heightText == null)
             {
