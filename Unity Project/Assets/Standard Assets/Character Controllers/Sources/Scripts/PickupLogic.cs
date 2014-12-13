@@ -15,7 +15,6 @@ public class PickupLogic : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("Event fired");
         var collectable = collider.collider.gameObject;
         if (collectable.tag == "Collectable")
         {
