@@ -245,6 +245,7 @@ GameObject:
   - 114: {fileID: 954837701}
   - 114: {fileID: 954837700}
   - 114: {fileID: 954837703}
+  - 114: {fileID: 954837704}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -403,6 +404,19 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -60
   maximumY: 60
+--- !u!114 &954837704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954837695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f8335e0995a6448905f44e7aae2eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathHeight: 0
+  RespawnLocation: {x: 0, y: 10, z: 0}
 --- !u!1 &974618616
 GameObject:
   m_ObjectHideFlags: 0
