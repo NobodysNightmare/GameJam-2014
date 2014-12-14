@@ -1436,7 +1436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathHeight: 2
-  RespawnLocation: {x: 27.4699993, y: 13.1700001, z: 0}
 --- !u!114 &168362790
 MonoBehaviour:
   m_ObjectHideFlags: 0
