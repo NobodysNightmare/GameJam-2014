@@ -3856,7 +3856,7 @@ Transform:
   - {fileID: 223945150}
   - {fileID: 1552904388}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
 --- !u!114 &477318266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3869,7 +3869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b55e4387c8b8140a1d65958bfe4102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpDirection: {x: 0, y: 1, z: 1}
+  JumpDirection: {x: 0, y: 1, z: 0}
   JumpVelocity: 30
 --- !u!65 &477318267
 BoxCollider:
@@ -12558,7 +12558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11459162, guid: 0af1ba06402bd22418e18b2282da4a3c, type: 2}
       propertyPath: JumpDirection.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11459162, guid: 0af1ba06402bd22418e18b2282da4a3c, type: 2}
       propertyPath: JumpVelocity
@@ -14230,7 +14230,7 @@ Transform:
   - {fileID: 1581326514}
   - {fileID: 24056918}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
 --- !u!114 &1914430664
 MonoBehaviour:
   m_ObjectHideFlags: 0
